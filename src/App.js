@@ -1,7 +1,12 @@
 import "./App.css";
+import NavBar from "./components/NavBar/navbar";
 
-function App() {
-  return <div className="App">Hello World! Welcome to Facebook</div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <NavBar />
+    </div>
+  );
+};
 
 export default App;
