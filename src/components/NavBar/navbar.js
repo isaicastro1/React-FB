@@ -26,6 +26,11 @@ const NavBar = () => {
             placeholder="Search Facebook"
           />
         </div>
+        <div className="nav-hamburger-menu-btn">
+          <button className="nav-hamburger-menu">
+            <span className="material-symbols-outlined menu-nav">menu</span>
+          </button>
+        </div>
       </div>
 
       <div className="nav-routes">
