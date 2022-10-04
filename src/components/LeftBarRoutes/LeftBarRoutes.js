@@ -7,7 +7,9 @@ const LeftBarRoutes = (props) => {
     <div className="left-nav-name">
       <div className="name-container">
         <div className="logo-container">
-          <span className="material-symbols-outlined home">{logo}</span>
+          <span className="material-symbols-outlined left-bar-routes">
+            {logo}
+          </span>
         </div>
         <div className="nav-name">
           <p>{name}</p>

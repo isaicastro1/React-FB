@@ -1,12 +1,12 @@
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
-import LeftBar from "./components/LeftNav/LeftBar";
+import BodyContainer from "./containers/BodyContainer/BodyContainer";
 
 const App = () => {
   return (
     <div className="App">
       <NavBar />
-      <LeftBar />
+      <BodyContainer />
     </div>
   );
 };
