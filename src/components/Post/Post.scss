@@ -1,0 +1,58 @@
+.friend-post {
+  width: 500px;
+  height: 800px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+
+  .top-post {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+
+    .friend-prof-pic {
+      border-radius: 50%;
+    }
+
+    .post-title {
+      width: 80%;
+    }
+
+    .post-settings {
+      display: flex;
+      align-items: flex-start;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: #f0f2f5;
+        cursor: pointer;
+      }
+
+      .post-settings-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 7px;
+        right: 17px;
+        border: none;
+        background: none;
+        font-size: 1.5rem;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .post-text {
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+  }
+}
