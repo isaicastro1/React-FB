@@ -24,7 +24,7 @@ const Post = () => {
       </div>
 
       <div className="post-image">
-        <img alt="" src="https://source.unsplash.com/featured/500x625" />
+        <img alt="" src="https://source.unsplash.com/featured/500x600" />
       </div>
 
       <div className="post-reactions">
@@ -53,6 +53,61 @@ const Post = () => {
               chat_bubble
             </span>
             <p className="post-comment-text">Comment</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="my-post-comment">
+        <div className="prof-image">
+          <img
+            className="my-prof-image"
+            alt=""
+            src="https://source.unsplash.com/featured/40x41"
+          ></img>
+        </div>
+        <div className="my-comment">
+          <p
+            className="comment-input"
+            contentEditable="true"
+            style={{
+              resize: "none",
+              overflow: "auto",
+              border: 0,
+              outline: 0,
+              backgroundColor: "transparent",
+            }}
+            suppressContentEditableWarning={true}
+          >
+            Write a comment...
+          </p>
+          <div className="comment-icons">
+            <ul className="comment-icon-list">
+              <li>
+                <span className="material-symbols-outlined my-comment-icon">
+                  account_circle
+                </span>
+              </li>
+              <li>
+                <span className="material-symbols-outlined my-comment-icon">
+                  sentiment_satisfied
+                </span>
+              </li>
+              <li>
+                <span className="material-symbols-outlined my-comment-icon">
+                  photo_camera
+                </span>
+              </li>
+              <li>
+                <span className="material-symbols-outlined my-comment-icon">
+                  gif_box
+                </span>
+              </li>
+              <li>
+                <span className="material-symbols-outlined my-comment-icon">
+                  sticky_note_2
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
